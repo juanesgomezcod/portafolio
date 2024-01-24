@@ -6,6 +6,26 @@
     
 }
 
+.descBoton{
+    position: absolute;
+    transform: translateX(-65vh) translateY(4vh) skew(-15deg);
+    border: 1px solid rgb(71, 168, 195);
+    border-style: none solid solid none;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid rgb(84, 218, 255);
+        border-style: none solid solid none;
+    }
+}
+
+.descargar{
+    margin: 5px 15px;
+    color: rgb(150, 145, 145);
+    &:hover{
+        color:rgb(203,201,201)
+    }
+}
+
 .encabezado{
     display: flex;
     flex-direction: column;
@@ -32,7 +52,7 @@
 
 .icon{
     width: 2.4em;
-    margin-left: 4em;
+    margin-left: 27%;
     cursor: pointer;
     &:hover{
     -moz-transform: rotate(-20deg);
@@ -69,11 +89,30 @@
     height: 19%;
 }
 
+.infoRflecha{
+    color: rgb(97,218,251);
+    margin-right: 0.5em;
+    margin-left: 27%;
+}
+
+.infoRpalabra{
+    margin: 0;
+    margin-left: 0.5em;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    &:hover{
+        color: rgb(97,218,251);
+        text-decoration: underline;
+    }
+
+}
+
 .foto {
     width: 10em;
     border-radius: 10em;
     margin-top: auto;
     filter: grayscale(50%);
+    border: 3px solid #61DAFB;
 
 }
 
@@ -83,7 +122,7 @@
 
 .presentacion{
     color: white;
-    width: 60%;
+    width: 70%;
     text-align: justify;
     margin-top: 0;
     margin-bottom: auto;
