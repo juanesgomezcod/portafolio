@@ -7,7 +7,35 @@
 }
 
 .titulo{
-    color: #61DAFB
+    color: #61DAFB;
+}
+
+.divFlecha {
+    position: absolute;
+    display: flex;
+    top: 110%;
+    right: 10%;
+}
+
+.flecha {
+    color: rgb(84, 218, 255);
+    margin: 0;
+}
+
+.aFlecha {
+    text-decoration: none;
+}
+
+.home {
+    margin: 0;
+    margin-left: 0.5em;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(97, 218, 251);
+        text-decoration: underline;
+    }
 }
 
 .education{
@@ -42,7 +70,7 @@
     flex-direction: column;
     align-items: flex-start;
     margin-left: 4px;
-    width: 70%;
+    width: 84%;
     height: 60%;
 }
 
@@ -55,6 +83,7 @@
 .logro{
     color: #61DAFB;
     margin: 10px 0 0 20px;
+    text-align: start;
 }
 
 .fecha{
@@ -63,12 +92,12 @@
 }
 
 .logo{
-    width: 30%;
+    width: 100%;
     border: 0.5px solid white;
 }
 
 .contLogo{
-    width: 60%;
+    width: 16%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;

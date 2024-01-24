@@ -2,13 +2,13 @@ import style from "./Portfolio.module.css";
 import foto from "../../Assets/img/foto.jpg";
 import Education from "./Education/Education";
 import Experience from "./Experience/Experience";
-import Languajes from "./Languages/Languages";
+import Languages from "./Languages/Languages";
 import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 
 const Portfolio = () => {
   return (
-    <div className={style.Portfolio}>
+    <div className={style.Portfolio} id="home">
 
       <a href="https://drive.google.com/file/d/1XacLpq6YpSkXyITY1_0FtLa-hgf-ECQh/view?usp=sharing" className={style.a} target="blank">
         <div className={style.descBoton}>
@@ -75,21 +75,22 @@ const Portfolio = () => {
 
           <div className={style.divInfoR}>
             <h3 className={style.infoRflecha}>➤</h3>
-            <a className={style.a} href="#contProjects"><h3 className={style.infoIcon}>Skills</h3></a>
+            <a className={style.a} href="#contSkills"><h3 className={style.infoIcon}>Skills</h3></a>
           </div>
 
           <div className={style.divInfoR}>
             <h3 className={style.infoRflecha}>➤</h3>
-            <a className={style.a} href="#contSkills"><h3 className={style.infoIcon}>Projects</h3></a>
+            <a className={style.a} href="#contProjects"><h3 className={style.infoIcon}>Projects</h3></a>
           </div>
 
         </div>
       </div>
       <Education />
       <Experience />
-      <Languajes />
-      <Projects />
+      <Languages />
       <Skills />
+      <Projects />
+      <p className={style.copyright}>Copyright © 2024 JUAN ESTEBAN GOMEZ</p>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import style from "./Languages.module.css";
 import logo from "../../../Assets/img/digitalhouselogo.jpg"
 
-const Languajes = () => {
+const Languages = () => {
     return (
         <div className={style.contLanguages} id="contLanguages">
             <fieldset className={style.education}>
@@ -51,4 +51,4 @@ const Languajes = () => {
     )
 };
 
-export default Languajes
+export default Languages
