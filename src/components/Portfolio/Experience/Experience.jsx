@@ -7,6 +7,13 @@ const Experience = () => {
             <fieldset className={style.education}>
                 <legend><h1 className={style.titulo}>EXPERIENCE</h1></legend>
 
+                <div className={style.divFlecha}>
+                    <h3 className={style.flecha}>➤</h3>
+                    <a href="#home" className={style.aFlecha}>
+                        <h3 className={style.home}>Home</h3>
+                    </a>
+      </div>
+
             <div className={style.info}>
                 <div className={style.arriba}>
                 <div className={style.encabezado}>

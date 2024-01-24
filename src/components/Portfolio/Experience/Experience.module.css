@@ -10,6 +10,34 @@
     color: #61DAFB
 }
 
+.divFlecha {
+    position: absolute;
+    display: flex;
+    top: 210%;
+    right: 10%;
+}
+
+.flecha {
+    color: rgb(84, 218, 255);
+    margin: 0;
+}
+
+.aFlecha {
+    text-decoration: none;
+}
+
+.home {
+    margin: 0;
+    margin-left: 0.5em;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(97, 218, 251);
+        text-decoration: underline;
+}
+}
+
 .education{
    color: white; 
    width: 90%;
